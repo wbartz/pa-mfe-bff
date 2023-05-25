@@ -9,8 +9,9 @@ router.get("/", (req, res) => {
       "@associacao/root-config": "//localhost:9000/associacao-root-config.js",
       "@associacao/design-system":
         "//localhost:9001/associacao-design-system.js",
+      "@associacao/app-login": "//localhost:8080/associacao-app-login.js",
       "@associacao/app-header": "//localhost:8081/associacao-app-header.js",
-      "@associacao/app-home": "//localhost:8080/associacao-app-home.js",
+      "@associacao/app-home": "//localhost:8082/associacao-app-home.js",
     },
   });
 });

@@ -4,13 +4,13 @@ var router = express.Router();
 router.get("/", (req, res) => {
   res.json([
     {
-      path: "/usuarios",
+      path: "/mgm",
       name: "app-home",
       exact: false,
     },
     {
-      path: "/mgm",
-      name: "app-home",
+      path: "/login",
+      name: "app-login",
       exact: false,
     },
   ]);
